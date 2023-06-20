@@ -1,11 +1,6 @@
-# Safe&Sound
+# Safe-and-Sound
 
-Application built with React and Typescript to monitor and record jobsite safety data like hazard assessments, violations, infractions ect.
+Application built with React.js and Typescript to monitor and record jobsite safety data and perform hazard assessments, safety violations, trade infractions etc.
 
-## Available Scripts
-
-In the project directory, you can run:
-
-### `npm start`
 
 
