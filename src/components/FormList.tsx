@@ -1,9 +1,9 @@
 import SideElement from "./SideElement";
 import "../styles/FormList.module.css";
 
-const FormList = () => {
+const FormList: React.FC = () => {
   return (
-    <div className="form-list">
+    <div className="form-list-container">
       <SideElement />
     </div>
   );

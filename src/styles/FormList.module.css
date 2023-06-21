@@ -1,3 +1,6 @@
-.form-list {
-  
+.form-list-container {
+  height: 100%;
+  width: 40%;
+  border: 1px solid black;
+  background: grey;
 }

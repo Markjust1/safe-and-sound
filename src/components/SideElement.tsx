@@ -1,8 +1,8 @@
-import "../styles/SideElement.module.css"
+import styles from "../styles/SideElement.module.css"
 
-const SideElement = () => {
+const SideElement: React.FC = () => {
   return (
-    <div className="side-elem">FORM 1</div>
+    <div className="side-element-container">FORM</div>
   )
 };
 
