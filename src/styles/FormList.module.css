@@ -1,6 +1,6 @@
-.form-list-container {
-  height: 100%;
-  width: 40%;
+.formlist {
+  height: 100px;
+  width: 80px;
   border: 1px solid black;
-  background: grey;
+  background: rgb(103, 154, 71);
 }
