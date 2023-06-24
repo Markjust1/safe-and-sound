@@ -1,6 +1,6 @@
 .formlist {
-  height: 100px;
-  width: 80px;
+  height: 100vh;
+  width: 35%;
   border: 1px solid black;
   background: rgb(103, 154, 71);
 }

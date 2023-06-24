@@ -1,9 +1,10 @@
-import SideElement from "./components/SideElement";
+// import SideElement from "./components/SideElement";
+import FormList from "./components/FormList";
 
 const App = () => {
   return (
     <div className="App">
-      <SideElement/>
+      <FormList/>
     </div>
   );
 }
