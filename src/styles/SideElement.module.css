@@ -1,6 +1,9 @@
 .side {
   border: 1px red;
   height: 40px;
-  width: 80px;
+  /* width: 80px; */
   background: grey;
+  border: 1px red solid;
+  margin: 5px 5px 5px 5px;
+  text-align: center;
 }
