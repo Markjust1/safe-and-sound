@@ -1,6 +1,8 @@
 .formlist {
+  display: flex;
+  flex-direction: column;
   height: 100vh;
   width: 35%;
-  border: 1px solid black;
-  background: rgb(103, 154, 71);
+  border-right: 3px solid rgb(255, 255, 255);
+  padding: 10px;
 }
