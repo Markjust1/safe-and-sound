@@ -3,6 +3,7 @@
   border: 2px solid rgb(255, 255, 255);
   flex-grow: 3;
   margin: 10px;
+  margin-right: 20px;
   border-radius: 5px;
   background: rgb(213, 212, 212);
 }
