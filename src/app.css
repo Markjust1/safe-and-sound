@@ -1,6 +1,10 @@
 .app {
   display: flex;
-  flex-direction: row;
-  
+  flex-direction: column;
   background-color: rgb(182, 184, 184);
+}
+
+.content {
+  display: flex;
+  flex-direction: row;
 }

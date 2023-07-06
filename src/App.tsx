@@ -1,12 +1,18 @@
 import "./app.css";
 import FormList from "./components/FormList";
 import FormContent from "./components/FormContent";
+import Navbar from "./components/Navbar";
 
 const App = () => {
   return (
     <div className="app">
-      <FormList/>
-      <FormContent/>
+      <Navbar />
+
+      <div className="content">
+        <FormList />
+        <FormContent />
+      </div>
+
     </div>
   );
 }
