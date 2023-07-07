@@ -1,0 +1,12 @@
+.app {
+  display: flex;
+  flex-direction: column;
+  /* background-color: rgb(182, 184, 184); */
+  background-color: #b6b6b6;
+  background-image: url("https://www.transparenttextures.com/patterns/little-knobs.png");
+}
+
+.content {
+  display: flex;
+  flex-direction: row;
+}
