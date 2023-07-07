@@ -3,8 +3,9 @@
   align-items: center;
   justify-content: center;
   height: 40px;
-  background: rgba(213, 212, 212, 0.782);
-  border: 2px rgb(255, 255, 255) solid;
+  min-height: 40px;
+  background: rgba(234, 233, 233, 0.782);
+  /* border: 2px rgb(255, 255, 255) solid; */
   text-align: center;
   margin-bottom: 4px;
   border-radius: 3px;

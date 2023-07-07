@@ -1,7 +1,9 @@
 .container {
   display: flex;
-  height: 40px;
-  background: rgba(213, 212, 212, 0.782);
-  border-bottom: 1px rgba(255, 255, 255, 0.428) solid;
-  margin-bottom: 30px;
+  height: 10vh;
+  min-height: 60px;
+  background: rgba(234, 233, 233, 0.782);
+  /* border: 2px rgb(255, 255, 255) solid; */
+  border-radius: 3px;
+  margin: 10px 20px 20px 20px;
 }
