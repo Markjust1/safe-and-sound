@@ -5,6 +5,7 @@ const Navbar: React.FC = () => {
   return (
     <div className={styles.container}>
       <img src={icon}></img>
+      <div className={styles.user}>Artem Novikov</div>
     </div>
   );
 };
