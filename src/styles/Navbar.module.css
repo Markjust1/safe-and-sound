@@ -13,7 +13,8 @@
 .user {
   font-size: 1.5em;
   color: rgb(255, 255, 255);
-  text-shadow: 1px 1px 2px rgb(71, 71, 71);
+  text-shadow: 1px 1px 1px #737373;
   align-self: center;
   margin-right: 20px;
+  font-family: Arial, Helvetica, sans-serif;
 }
