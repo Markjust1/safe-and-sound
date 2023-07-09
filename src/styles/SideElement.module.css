@@ -4,20 +4,20 @@
   justify-content: center;
   height: 40px;
   min-height: 40px;
-  background: rgba(234, 233, 233, 0.782);
+  background: #eae9e9c7;
   /* border: 2px rgb(255, 255, 255) solid; */
   text-align: center;
   margin-bottom: 4px;
   border-radius: 3px;
   color: rgb(255, 255, 255);
-  text-shadow: 1px 1px 2px rgb(71, 71, 71);
+  text-shadow: 1px 1px 2px #474747;
 }
 
 .side:hover {
   transform: scale(1.005);
-  background: rgba(213, 212, 212, 0.892);
+  background: #d5d4d4e3;
 }
 .side:active {
   transform: scale(0.995);
-  background: rgba(213, 212, 212, 0.892);
+  background: #d5d4d4e3;
 }

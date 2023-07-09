@@ -12,9 +12,32 @@
 
 .user {
   font-size: 1.5em;
-  color: rgb(255, 255, 255);
+  color: #ffffff;
   text-shadow: 1px 1px 1px #737373;
   align-self: center;
   margin-right: 20px;
   font-family: Arial, Helvetica, sans-serif;
+}
+
+select {
+  border: 1px solid #ffffff00;
+  background-color: transparent;
+  font-size: 1.5em;
+  color: #737373;
+  /* text-shadow: 1px 1px 1px #737373; */
+  align-self: center;
+  margin-right: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* remove outline border when clicking on select */
+*:focus {
+  outline: none;
+}
+
+.column {
+  display:flex;
+  flex-direction: column;
+  align-self: center;
+  justify-self: center;
 }
