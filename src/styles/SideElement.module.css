@@ -1,16 +1,19 @@
 .side {
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-start;
   height: 40px;
   min-height: 40px;
-  background: #eae9e9c7;
+  background: #e9eaeac7;
   /* border: 2px rgb(255, 255, 255) solid; */
   text-align: center;
   margin-bottom: 4px;
   border-radius: 3px;
-  color: rgb(255, 255, 255);
-  text-shadow: 1px 1px 2px #474747;
+  color: #6fabff;
+  text-shadow: 1px 1px 2px #ffffff;
+  font-family: Arial, Helvetica, sans-serif;
+  padding-left: 40px;
+  font-size: 1.2rem;
 }
 
 .side:hover {
@@ -20,4 +23,5 @@
 .side:active {
   transform: scale(0.995);
   background: #d5d4d4e3;
+  color: #428efa;
 }

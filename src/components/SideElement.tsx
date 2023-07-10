@@ -1,16 +1,18 @@
 import styles from "../styles/SideElement.module.css";
 
+const forms = [
+  "Daily Hazard Assessment",
+  'Trade Infraction',
+  'Weekly Safety Toolbox Talk',
+  'Trade Monitoring',
+  'Weekly Hazard Assessment',
+  'Monthly Jobsite Spotcheck'
+];
+
 const SideElement: React.FC = () => {
   return (
     <>
-      <div className={styles.side}>FORM</div>
-      <div className={styles.side}>FORM</div>
-      <div className={styles.side}>FORM</div>
-      <div className={styles.side}>FORM</div>
-      <div className={styles.side}>FORM</div>
-      <div className={styles.side}>FORM</div>
-      <div className={styles.side}>FORM</div>
-      <div className={styles.side}>FORM</div>
+    {forms.map(elem=><div className={styles.side}>{elem}</div>)}
     </>
   );
 };

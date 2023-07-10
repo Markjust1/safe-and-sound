@@ -19,16 +19,22 @@
   font-family: Arial, Helvetica, sans-serif;
 }
 
-select {
+.select {
   border: 1px solid #ffffff00;
   background-color: transparent;
   font-size: 1.5em;
   color: #737373;
-  /* text-shadow: 1px 1px 1px #737373; */
+  text-shadow: 2px 2px 1px #ffffff;
   align-self: center;
   margin-right: 20px;
   font-family: Arial, Helvetica, sans-serif;
 }
+
+.select:hover {
+  transform: scale(1.03);
+  color: #3496f8;
+}
+
 
 /* remove outline border when clicking on select */
 *:focus {
@@ -40,4 +46,16 @@ select {
   flex-direction: column;
   align-self: center;
   justify-self: center;
+}
+.row {
+  display:flex;
+  flex-direction: row;
+  align-self: center;
+  justify-self: center;
+}
+
+img {
+  padding-left: 20px;
+  padding-top: 2px;
+  padding-bottom: 2px;
 }
