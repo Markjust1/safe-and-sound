@@ -26,3 +26,7 @@
   background: #d5d4d4e3;
   color: #428efa;
 }
+
+.arrow:hover {
+  transform: scale(1.02);
+}

@@ -11,7 +11,7 @@ const DailyHazard: React.FC = () => {
       </>
       <>
         <div>Verify your location at the top of the page:</div>
-        <div>YES</div>
+        <input type="checkmark" />
       </>
     </div>
   );
