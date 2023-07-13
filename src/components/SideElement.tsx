@@ -20,7 +20,7 @@ const SideElement: React.FC = () => {
     <>
     {view && forms.map(elem=><div className={styles.side}>{elem}</div>)}
     {view && <div className={styles.arrow} onClick={()=>setView(false)}><img src={arrow}></img></div>}
-    {!view && options.map(elem=><div className={styles.side} onClick={()=>{setView(true)}}>{elem}</div>)}
+    {!view && options.map(elem=><div className={styles.side}  key={elem} onClick={()=>{setView(true)}}>{elem}</div>)}
     </>
   );
 };
