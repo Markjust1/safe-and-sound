@@ -29,7 +29,7 @@ const formattedTime = currentDate.toLocaleString('en-US');
 
       <div className={styles.container}>
         
-          <div>Site: 1</div>
+          <h1>Site: 1</h1>
           <button>change</button>
 
         <div>Date and time: {formattedDate}</div>
@@ -38,6 +38,15 @@ const formattedTime = currentDate.toLocaleString('en-US');
       <div className={styles.container}>
         <div>Verify your location at the top of the page:</div>
         <input className={styles.center} type="checkbox" />
+      </div>
+      <div className={styles.container}>
+        <h2>General Information</h2>
+        <div>Enter address you are working at:</div>
+        <input type="text" />
+        <div>Worker conducting this assessment:</div>
+        <input type="text" />
+        <div>Weather conditions:</div>
+        <input type="text" />
       </div>
     </div>
   );

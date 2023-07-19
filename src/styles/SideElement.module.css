@@ -23,7 +23,7 @@
 }
 .side:active {
   transform: scale(0.995);
-  background: #d5d4d4e3;
+  background: #d4d4d5e3;
   color: #428efa;
 }
 
